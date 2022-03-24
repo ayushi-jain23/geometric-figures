@@ -62,6 +62,7 @@ body .triangle-right{
 
 /*animation*/
 body .rotation{
+    margin: 40px;
     animation: rotation 2s linear infinite;
 }
 @keyframes rotation {
