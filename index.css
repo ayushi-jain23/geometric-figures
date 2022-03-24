@@ -1,0 +1,61 @@
+body .square{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+body .circle{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+body .oval{
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%
+}
+body .trapezium{
+    border-left: 40px solid white;
+    border-right: 40px solid white;
+    width: 100px;
+    border-bottom: 100px solid black;
+}
+body .rectangle{
+    background-color: black;
+    width: 200px;
+    height: 100px;
+}
+body .parallelogram {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    transform: skew(20deg);
+    margin-left: 20px;
+}
+body .triangle-up{
+    width: 0;
+    border-bottom: 100px solid black;
+    border-left: 100px solid white;
+    border-right: 100px solid white;
+}
+body .triangle-down{
+    width: 0;
+    border-top: 100px solid black;
+    border-left: 100px solid white;
+    border-right: 100px solid white;
+
+}
+body .triangle-left{
+    width: 0;
+    border-right: 100px solid black;
+    border-top: 100px solid white;
+    border-bottom: 100px solid white;
+
+}
+body .triangle-right{
+    width: 0;
+    border-left: 100px solid black;
+    border-bottom: 100px solid white;
+    border-top: 100px solid white;
+}
